@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "hellothere",
+=======
+  "name": "hello",
+>>>>>>> 873ce8817a7ee0ed99a23288973e03f1b44d6139
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
@@ -19,5 +24,14 @@
     "eslint-config-next": "15.0.3",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15"
+=======
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "next": "15.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3"
+>>>>>>> 873ce8817a7ee0ed99a23288973e03f1b44d6139
   }
 }
