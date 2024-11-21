@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Logo from '../components/Logo.jsx'; // Example path if `Logo.jsx` is in a `components` folder
-
+import NavLink from './navLink.jsx';
 const links=[
   {
     url:'/',
@@ -31,7 +31,7 @@ const Navbar = () => {
       {/* LINKS */}
       <div className="hidden md:flex gap-4 w-1/3">
       {links.map(link=>(
-          <Link href={link.url} key={link.title}>{link.title}</Link>
+          <NavLink link={link} key={link.title}/>
           ))}
       </div>
       {/* LOGO */}
